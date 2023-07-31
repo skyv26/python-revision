@@ -46,3 +46,16 @@ print(last_index_value) # Last index value
 sliced_list_of_value = my_list[2:5] 
 
 print(sliced_list_of_value) # Print value from index 2 to index 4
+
+#===================================================================
+
+# Remove the value by index and element
+
+my_list.remove(4)
+print(my_list) # Remove element by the element 4
+
+my_list.pop(4)
+print(my_list) # Remove element by the index 4
+
+#=============================================================
+
