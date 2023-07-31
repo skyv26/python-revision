@@ -59,3 +59,13 @@ print(my_list) # Remove element by the index 4
 
 #=============================================================
 
+# Add the value at particular index
+
+my_list.insert(3, 4)
+print(my_list) # Add 4 as an element at index 3
+
+my_list.insert(5, 'Aakash')
+print(my_list) # Add Aakash as an element at index 5
+
+#=============================================================
+
