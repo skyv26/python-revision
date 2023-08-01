@@ -84,3 +84,22 @@ print(my_list)
 # Output: [1, 2, 3, 4, 5, 'Aakash', 'Verma', 6, 7, 8, 9, 10]
 
 #=============================================================
+
+# Reverse the existing_list
+my_list.reverse()
+print(my_list) 
+# Output: [10, 9, 8, 7, 6, 'Verma', 'Aakash', 5, 4, 3, 2, 1]
+
+# Sort the existing list in the `ascending` order but for homogeneous element
+my_list.sort()
+print(my_list)
+#Output: Result in Error because of type of element mis-match
+
+my_list.remove('Aakash')
+my_list.remove('Verma')
+my_list.reverse()
+my_list.sort()
+print(my_list)
+#Output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+#========================================================
