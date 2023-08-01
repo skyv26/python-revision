@@ -32,20 +32,23 @@ print(my_list) # [ 1, 2, 3, 4, 5 ]
 my_list.append('Aakash')
 my_list.append('Verma')
 
-print(my_list) # [ 1, 2, 3, 4, 5, 'Aakash', 'Verma' ]
+print(my_list) # Output: [ 1, 2, 3, 4, 5, 'Aakash', 'Verma' ]
+
+#=======================================================
 
 # Access the items in different ways
 
 zero_index_value = my_list[0] 
 print(zero_index_value) # Zero index value
+#Output: 1
 
 last_index_value = my_list[-1] 
-
 print(last_index_value) # Last index value
+# Output: Verma
 
 sliced_list_of_value = my_list[2:5] 
-
 print(sliced_list_of_value) # Print value from index 2 to index 4
+# Output: [3, 4, 5]
 
 #===================================================================
 
@@ -53,9 +56,11 @@ print(sliced_list_of_value) # Print value from index 2 to index 4
 
 my_list.remove(4)
 print(my_list) # Remove element by the element 4
+# Output: [1, 2, 3, 5, 'Aakash', 'Verma']
 
 my_list.pop(4)
 print(my_list) # Remove element by the index 4
+# Output: [1, 2, 3, 5, 'Verma']
 
 #=============================================================
 
@@ -63,9 +68,19 @@ print(my_list) # Remove element by the index 4
 
 my_list.insert(3, 4)
 print(my_list) # Add 4 as an element at index 3
+# Output: [1, 2, 3, 4, 5, 'Verma']
 
 my_list.insert(5, 'Aakash')
 print(my_list) # Add Aakash as an element at index 5
-
+# Output: [1, 2, 3, 4, 5, 'Aakash', 'Verma
 #=============================================================
 
+# Add a new list to extend the existing `my_list`
+
+new_list = [ 6, 7, 8, 9, 10 ]
+my_list.extend(new_list) 
+
+print(my_list)
+# Output: [1, 2, 3, 4, 5, 'Aakash', 'Verma', 6, 7, 8, 9, 10]
+
+#=============================================================
