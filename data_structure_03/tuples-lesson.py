@@ -22,3 +22,21 @@ print(my_tuple)
 sliced_tuple = my_tuple[1:3]
 print(sliced_tuple)
 # Output: ('2', 3.0)
+
+#=======================================================
+
+# We can convert a list to tuple and vice versa
+
+my_list = [1, 2, 3, 4]
+my_tuple = tuple(my_list)
+print(my_tuple) 
+# Output: (1, 2, 3, 4)
+
+my_list = list(my_tuple)
+my_list.insert(1, 'Aakash')
+my_list.insert(2, 'Verma')
+my_tuple = tuple(my_list)
+print(my_tuple)
+# Output: (1, 'Aakash', 'Verma', 2, 3, 4)
+
+#=====================================================
