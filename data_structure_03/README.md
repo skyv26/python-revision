@@ -259,22 +259,25 @@ Performing set operations:
 ```python
 favorite_colors = {'blue', 'green', 'red'}
 rainbow_colors = {'red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'}
+```
+## Section 5: Manipulating Data with Data Structures
 
-# Intersection
-common_colors = favorite
+Now that we've covered the basics of lists, tuples, dictionaries, and sets, let's explore how to manipulate and organize data using these data structures.
 
-_colors.intersection(rainbow_colors)
-print(common_colors)  # Output: {'green', 'blue', 'red'}
+## Section 6: Coding Exercises
 
-# Union
-all_colors = favorite_colors.union(rainbow_colors)
-print(all_colors)  # Output: {'orange', 'yellow', 'green', 'blue', 'indigo', 'violet', 'red'}
+To practice what we've learned, here are some coding exercises:
 
-# Difference
-unique_favorite_colors = favorite_colors.difference(rainbow_colors)
-print(unique_favorite_colors)  # Output: set()
+1. Create a list of your favorite movies and print the list.
+2. Create a tuple of your top three hobbies and print the tuple.
+3. Build a dictionary with information about yourself (name, age, city) and print it.
+4. Create two sets, one with your favorite colors and another with the colors of the rainbow. Perform set operations to find common colors.
 
-# Symmetric Difference
-symmetric_diff = favorite_colors.symmetric_difference(rainbow_colors)
-print(symmetric_diff)  # Output: {'orange', 'yellow', 'indigo', 'violet'}
+Feel free to experiment with additional scenarios and data manipulations.
+
+That concludes Lesson 3 on Data Structures! Understanding these fundamental structures is crucial for effective Python programming.
+
+Happy coding, and don't hesitate to reach out if you have any questions!
+
+Do it yourself !!!
 ```
