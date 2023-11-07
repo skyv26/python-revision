@@ -10,7 +10,7 @@
 width = 5
 height = 10
 
-rectangle_formula = 2 * (width + height)
+rectangle_formula = width * height
 
 print(rectangle_formula)
 

@@ -84,16 +84,3 @@ print(my_module.greeting) # Output: Welcome to my module!
 
 ```
 
-## Section 3: Coding Exercises
-
-Now, let's practice what we've learned with some coding exercises:
-
-1. Write a function that calculates the area of a circle given its radius.
-2. Create a module that contains a function to check if a number is prime.
-3. Import the math module and use it to calculate the factorial of a number.
-
-Feel free to experiment and create your own functions and modules for additional practice.
-
-That's it for Lesson 2 on Functions and Modules! Functions and modules are fundamental building blocks in Python, and mastering them will greatly enhance your programming skills.
-
-Keep coding, and feel free to ask if you have any questions!
