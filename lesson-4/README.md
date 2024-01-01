@@ -92,7 +92,3 @@ Create a program that converts a given binary string to an integer.
 
 ### Challenge 3
 Implement a function that takes a sentence as input, capitalizes the first letter of each word, and prints the modified sentence.
-
-## Conclusion 🎉
-
-Congratulations! You've mastered the essentials of Python input and output. Practice these concepts, tackle the challenges, and watch your Python skills soar. Happy coding! 🚀
