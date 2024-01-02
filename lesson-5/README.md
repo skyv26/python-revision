@@ -11,7 +11,8 @@ Welcome to the Object-Oriented Programming (OOP) In-Depth Masterclass, a compreh
 5. [Practice and Challenges](#practice-and-challenges)
 6. [Interview Aspects](#interview-aspects)
 7. [Behind the Scenes in Python](#behind-the-scenes-in-python)
-8. [Conclusion](#conclusion)
+8. [Practice Problems](#practice-problems)
+9. [Conclusion](#conclusion)
 
 ## 1. Introduction to OOP 🌐
 
@@ -483,6 +484,32 @@ obj.show()  # Output: B
 **Advice:**
 Be prepared to discuss scenarios where multiple inheritance is beneficial and how to manage potential conflicts using the MRO.
 
-## 8. Conclusion
+## 8. Practice Problems
+
+### Problem 1: Bank Accounts
+
+Create a `BankAccount` class with the following functionalities:
+- Initialize the account with a balance.
+- Implement a method to deposit funds.
+- Implement a method to withdraw funds.
+- Ensure the balance cannot go negative.
+
+### Problem 2: Shape Hierarchy
+
+Design a hierarchy of classes for geometric shapes, including `Circle` and `Rectangle`. Each shape should have methods to calculate area and perimeter. Ensure that the hierarchy is well-organized and utilizes inheritance effectively.
+
+### Problem 3: Zoo Animals
+
+Create a `Zoo` class that can contain different types of animals such as `Lion`, `Elephant`, and `Penguin`. Each animal should have a method to make a sound (`speak`). The `Zoo` class should have a method to display the sounds of all the animals in the zoo.
+
+### Problem 4: Vehicle Rental System
+
+Develop a system for a vehicle rental service. Create a `Vehicle` class with attributes like `make`, `model`, and `year`. Implement subclasses for specific vehicle types such as `Car`, `Motorcycle`, and `Truck`. Include methods for renting and returning vehicles.
+
+### Problem 5: Employee Management
+
+Design an employee management system. Create a `Person` class with attributes like `name` and `age`. Extend this class to create an `Employee` class with additional attributes such as `employee_id` and `salary`. Implement a method to calculate the annual salary for an employee.
+
+## 9. Conclusion
 
 Congratulations! 🎉 You've completed the OOP In-Depth Masterclass. Object-Oriented Programming is a powerful paradigm that significantly enhances code organization, scalability, and maintainability. Your journey from zero to hero is now equipped with comprehensive knowledge. Keep practicing and exploring real-world applications to solidify your understanding. Happy coding! 🚀
