@@ -1,1 +1,1 @@
-Detail documentation will share soon.
+Detail documentation will share soon..
